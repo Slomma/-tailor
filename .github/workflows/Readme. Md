@@ -1,0 +1,17 @@
+tailor/
+├── .github/               # Workflows & Configurations
+├── public/                # ملفات الواجهة العامة
+|    ├── index.html
+|    ├── manifest.json
+|    ├── service-worker.js
+|    └── assets/
+|        ├── images/
+|        └── icons/
+├── src/                   # ملفات التطبيق الأساسية
+|    ├── auth.js
+|    ├── orders.js
+|    ├── ui.js
+|    └── firebase-config.js
+├── design/                # Mockups UX/UI (Figma or PNG)
+├── README.md
+└── .gitignore
