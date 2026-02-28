@@ -13,3 +13,29 @@
     }
   ]
 }
+
+{
+  "userId": "abc123",
+  "name": "Islam Mogadam",
+  "role": "client/tailor",
+  "email": "email@example.com",
+  "phone": "01272605770"
+}
+{
+  "orderId": "xyz456",
+  "platformCommission": 1000,
+  "tailorAmount": 9000,
+  "status": "unpaid/paid"
+}
+{
+  "orderId": "xyz456",
+  "clientId": "abc123",
+  "tailorId": "def789",
+  "designName": "Abaya",
+  "description": "Elegant black abaya",
+  "size": "M",
+  "deliveryDate": "2026-03-15",
+  "price": 10000,
+  "status": "pending",
+  "createdAt": "timestamp"
+}
