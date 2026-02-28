@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Tailor | خياط</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #222;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+            background: #ffe6f0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            padding: 12px 20px;
+            background: #e60073;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .cards {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Tailor | خياط</h2>
+</header>
+
+<nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">كيف تعمل المنصة</a>
+    <a href="#">تسجيل خياط</a>
+    <a href="#">تسجيل عميل</a>
+</nav>
+
+<section class="hero">
+    <h1>اربط بين العميل والخياط بسهولة</h1>
+    <p>منصة Tailor تسهل طلب تفصيل الملابس وتحديد السعر وموعد التسليم.</p>
+    <button class="btn">ابدأ الآن</button>
+</section>
+
+<section class="section">
+    <h2>كيف تعمل المنصة؟</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>👗 العميل</h3>
+            <p>يرفع التصميم ويحدد المقاسات ويختار الخياط.</p>
+        </div>
+        <div class="card">
+            <h3>🧵 الخياط</h3>
+            <p>يقبل الطلب ويحدد مدة التنفيذ والسعر.</p>
+        </div>
+        <div class="card">
+            <h3>💳 المنصة</h3>
+            <p>تنظم العملية وتحدد العمولة وتضمن جودة الخدمة.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>انضم الآن</h2>
+    <button class="btn">تسجيل كخياط</button>
+    <button class="btn">تسجيل كعميل</button>
+</section>
+
+<footer>
+    <p>© 2026 Tailor Platform - جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
